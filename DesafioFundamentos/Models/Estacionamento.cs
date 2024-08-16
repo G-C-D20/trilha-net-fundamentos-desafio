@@ -21,7 +21,7 @@ namespace DesafioFundamentos.Models
             // TODO: Pedir para o usuário digitar uma placa (ReadLine) e adicionar na lista "veiculos"
             // *IMPLEMENTE AQUI*
             // Status: Implementado 15/08/2024; 20:37 --- Funcionalidade=OK
-            Console.WriteLine("Digite a placa do veículo para estacionar:");
+            Console.WriteLine("Digite a placa do veículo a ser estacionado:");
             string input = Console.ReadLine();
             veiculos.Add(input);
         }
@@ -32,7 +32,7 @@ namespace DesafioFundamentos.Models
             // *IMPLEMENTE AQUI*
             // Status: FINALIZADO 16/08/2024 01:49
 
-            Console.WriteLine("Digite a placa do veículo para remover:");  
+            Console.WriteLine("Digite a placa do veículo para remove-lo:");  
             string placa = Console.ReadLine();
 
             // Verifica se o veículo existe
@@ -82,7 +82,7 @@ namespace DesafioFundamentos.Models
 
             else
             {
-                Console.WriteLine("Não há veículos estacionados.");
+                Console.WriteLine("Desculpe, não há veículos estacionados.");
             }
         }
     }

@@ -6,7 +6,7 @@ Console.OutputEncoding = System.Text.Encoding.UTF8;
 decimal precoInicial = 0;
 decimal precoPorHora = 0;
 
-Console.WriteLine("Seja bem vindo ao sistema de estacionamento!\n" +
+Console.WriteLine("Seja bem-vindo ao sistema de estacionamento!\n" +
                   "Por favor, digite o preço inicial:");
 precoInicial = Convert.ToDecimal(Console.ReadLine());
 
@@ -52,9 +52,9 @@ while (exibirMenu)
             break;
     }
 
-    Console.WriteLine("Pressione qualquer tecla para prosseguir..."); /*Implementação Textual Pessoal: "Pressione uma tecla para continuar" --->"Pressione qualquer tecla para prosseguir..." */
+    Console.WriteLine("Fechando Sistema... Pressione qualquer tecla para prosseguir."); /*Implementação Textual Pessoal: "Pressione uma tecla para continuar" --->"Pressione qualquer tecla para prosseguir..." */
     Console.ReadLine();
 }
 
-Console.WriteLine("Fechando Sistema...  Obrigado por utilizar o MoveInt System V1"); /*Implementação Textual Pessoal: "O programa se encerrou"--->"Fechando Sistema
+Console.WriteLine("Obrigado por utilizar o MoveIt System V1"); /*Implementação Textual Pessoal: "O programa se encerrou"--->"Fechando Sistema
                                               Obrigado por utilizar o MoveInt System V1"*/
